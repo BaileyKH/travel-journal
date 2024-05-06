@@ -17,7 +17,7 @@ export const Hero = () => {
                             <div className="location">
                                 <FontAwesomeIcon icon={faLocationDot} style={{color: "#f55a5a",}} />
                                 <p>{travel.location.toUpperCase()}</p>
-                                <a href={travel.googleMapsUrl}>View on Google Maps</a>
+                                <a href={travel.googleMapsUrl} target="_blank">View on Google Maps</a>
                             </div>
                             <h1>{travel.title}</h1>
                             <p className="dates">{travel.startDate} - {travel.endDate}</p>
