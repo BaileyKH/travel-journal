@@ -1,0 +1,18 @@
+.nav {
+    background-color: #F55A5A;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 20px 0;
+}
+
+.nav-logo {
+    font-size: 1.3rem;
+    padding-right: 8px;
+}
+
+.nav p {
+    font-size: 0.9rem;
+}
